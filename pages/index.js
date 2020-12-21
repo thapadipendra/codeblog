@@ -20,7 +20,7 @@ export default function Home({blogs, preview}) {
     isLoadingMore,
     isReachingEnd,
     loadMore
-  } = useGetBlogsPages({blogs, filter});
+  } = useGetBlogsPages({filter, blogs});
 
   return (
     <PageLayout>
@@ -54,6 +54,7 @@ export async function getStaticProps({preview = false}) {
   return {
     props: {
       blogs, preview
-    }
+    },
+    revalidate: 1
   }
 }
