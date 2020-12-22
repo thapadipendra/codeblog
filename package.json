@@ -24,5 +24,8 @@
     "react-toggle": "^4.1.1",
     "sass": "^1.30.0",
     "swr": "^0.2.2"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^1.0.3"
   }
 }
