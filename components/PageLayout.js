@@ -16,9 +16,9 @@ export default function PageLayout({children, className}) {
         </div>
         <footer className="page-footer">
           <div>
-            <a href="#">courses</a>{' | '}
-            <a href="#">github</a>{' | '}
-            <a href="#">facebook</a>
+            <a href="https://www.linkedin.com/in/dipen-chhetri-785110187/">linkedin</a>{' | '}
+            <a href="https://www.instagram.com/dipen_thapa044/#">instagram</a>{' | '}
+            <a href="https://www.facebook.com/dipen.thapa.3956/">facebook</a>
           </div>
         </footer>
       </Container>
